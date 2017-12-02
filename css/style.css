@@ -1,0 +1,29 @@
+p.mb-5{
+	font-size: 22px;
+	font-family: 'Barlow Semi Condensed', 'Barlow Condensed', 'Poppins', 'Encode Sans Condensed', sans-serif;
+}
+p{
+	font-family:Microsoft JhengHei , sans-serif;
+}
+li.nav-item:hover{
+	/*background: rgba(255, 211, 181, 0.5);*/
+	background: rgba(156, 172, 175, 0.6);
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: rgba(255, 255, 255, 0.7);
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: white;
+}
+.projectImg{
+	width:9rem;
+	height:9rem;
+	border-radius:100%;
+	margin: 1rem 2.5em 0rem 2.5rem;
+	opacity:0.7;
+}
+.projectImg:hover{
+	cursor:pointer;
+	opacity: 1;
+	border: 0.5rem solid transparent;
+}
